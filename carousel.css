@@ -120,6 +120,7 @@ html, body, main {
   .buttons{
     position: relative;
     transform: translateY(-2400%);
+    display:block;
   }
   #next{
     margin-left:290px;
