@@ -79,9 +79,7 @@ html, body, main {
 
 .buttons{
   position: relative;
-  left: 51%;
   transform: translateY(-2400%);
-  
 }
 #next{
   margin-left:100px;
@@ -91,7 +89,48 @@ html, body, main {
 }
 
 #prev{
-  margin-left:-180px;
+  margin-left:466px;
   border: none;
   border-radius: 30px;
+
+}
+
+@media only screen and (max-width:800px){
+  .buttons{
+    position: relative;
+    transform: translateY(-2400%);
+  }
+  #next{
+    margin-left:300px;
+    border: none;
+    border-radius: 30px;
+  }
+  
+  #prev{
+    margin-left:180px;
+    border: none;
+    border-radius: 30px;
+  
+  }
+
+}
+
+@media only screen and (max-width:500px){
+  .buttons{
+    position: relative;
+    transform: translateY(-2400%);
+  }
+  #next{
+    margin-left:290px;
+    border: none;
+    border-radius: 30px;
+  }
+  
+  #prev{
+    margin-left:40px;
+    border: none;
+    border-radius: 30px;
+  
+  }
+
 }
