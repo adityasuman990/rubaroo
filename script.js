@@ -11,7 +11,7 @@ $(document).ready(function () {
   let diff = 0;
 
   // Generating slide
-  let arrCities = ['Singing', 'Dance', 'Fashion', 'Darma', 'Esports' , 'Quiz' , 'Photograhy' , 'Standup' ]; // Change number of slides in CSS also
+  let arrCities = ['Singing', 'Dance', 'Fashion', 'Drama', 'Esports' , 'Quiz' , 'Photograhy' , 'Standup' ]; // Change number of slides in CSS also
   let numOfCities = arrCities.length;
   let arrCitiesDivided = [];
 
